@@ -13,4 +13,3 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 #D2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
-TARGET_TAP_TO_WAKE_STRING := true
