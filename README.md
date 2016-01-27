@@ -1,7 +1,7 @@
-Copyright (C) Sony Mobile Communications 2015
-=============================================
+# CyanogenMod Device Tree for the Sony Xperia Z5 (E6653)
 
-This is the Android device configuration for Xperia Z5 (kitakami platform).
+This tree is far beyond finished and WIP which means that It may now work in it's current state
 
-Build instructions
-http://developer.sonymobile.com/knowledge-base/open-source/open-devices/aosp-build-instructions/
+If you have questions or have a request to join the development, please don't bother to contact us on this email : ctx.xda@gmail.com
+
+Special thanks to the official sony developer team for the given sources!
