@@ -12,8 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_KERNEL_CONFIG := aosp_kitakami_sumire_defconfig
-
+#Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/sumire/overlay
 
@@ -30,6 +29,7 @@ $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 $(call inherit-product-if-exists, prebuilts/chromium/webview_prebuilt.mk)
 $(call inherit-product-if-exists, vendor/google/products/gms.mk)
 
+#Configs
 PRODUCT_COPY_FILES += \
     device/sony/sumire/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     device/sony/sumire/rootdir/system/etc/BCM4356.hcd:system/etc/firmware/BCM43xx.hcd \
@@ -43,12 +43,6 @@ PRODUCT_COPY_FILES += \
 # NFC config
 PRODUCT_PACKAGES += nfc_nci.sumire
 ADDITIONAL_DEFAULT_PROPERTIES += ro.hardware.nfc_nci=sumire
-
-PRODUCT_NAME := aosp_e6653
-PRODUCT_DEVICE := sumire
-PRODUCT_MODEL := Xperia Z5 (AOSP)
-PRODUCT_BRAND := Sony
-PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
