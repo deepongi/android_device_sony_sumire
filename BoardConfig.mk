@@ -12,5 +12,6 @@ TARGET_KERNEL_CONFIG := cm_kitakami_sumire_defconfig
 #dex2oatd
 DONT_DEXPREOPT_PREBUILTS := true
 
-#D2W
+BOARD_KERNEL_CMDLINE += androidboot.hardware=sumire
+
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
