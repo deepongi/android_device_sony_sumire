@@ -4,6 +4,7 @@ include device/sony/kitakami/BoardConfig.mk
 include device/sony/common/CommonConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E6653
+PRODUCT_PLATFORM := kitakami
 
 #Kernel
 TARGET_KERNEL_SOURCE := kernel/sony/kitakami
