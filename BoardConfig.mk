@@ -3,7 +3,6 @@ LOCAL_PATH := $(call my-dir)
 PRODUCT_PLATFORM := kitakami
 
 include device/sony/kitakami/BoardConfig.mk
-include device/sony/common/CommonConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E6653
 
