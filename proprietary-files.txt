@@ -21,6 +21,16 @@ etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 etc/acdbdata/MTP/MTP_Headset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
+# idmap
+bin/idmap
+vendor/overlay/SemcTvOut-Overlay-300.apk
+vendor/overlay/overlay-semcexperienceflow2-300.apk
+vendor/overlay/FingerprintsASM-Overlay-275.apk
+vendor/overlay/ServiceMenu-Overlay-270.apk
+vendor/overlay/SuperStamina-Overlay-275.apk
+vendor/overlay/ServiceMenu-Overlay-275.apk
+vendor/overlay/HwColorThemeDefault-Overlay.apk
+
 # ADSP
 bin/adsprpcd
 vendor/lib64/libadsprpc.so
