@@ -31,6 +31,12 @@ vendor/overlay/SuperStamina-Overlay-275.apk
 vendor/overlay/ServiceMenu-Overlay-275.apk
 vendor/overlay/HwColorThemeDefault-Overlay.apk
 
+# Media
+lib64/libmedia_jni.so
+lib64/libstagefright.so
+lib/libmedia_jni.so
+lib/libstagefright.so
+
 # ADSP
 bin/adsprpcd
 vendor/lib64/libadsprpc.so
