@@ -22,14 +22,13 @@ etc/acdbdata/MTP/MTP_Headset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
 # Keymaster
-bin/qseecom
 bin/qseecomd
 bin/qseecom_sample_client
 bin/qseecom_security_test
 vendor/lib/libQSEEComAPI.so
 vendor/lib64/libQSEEComAPI.so
 
-# idmap
+# Idmap
 bin/idmap
 vendor/overlay/SemcTvOut-Overlay-300.apk
 vendor/overlay/overlay-semcexperienceflow2-300.apk
