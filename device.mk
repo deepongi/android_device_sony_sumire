@@ -25,6 +25,14 @@ PRODUCT_COPY_FILES := \
     device/sony/sumire/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/sumire/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# Keymaster
+PRODUCT_COPY_FILES := \
+	device/sony/sumire/rootdir/firmware/image/keymaste.b00:firmware/image/keymaste.b00 \
+	device/sony/sumire/rootdir/firmware/image/keymaste.b01:firmware/image/keymaste.b01 \
+	device/sony/sumire/rootdir/firmware/image/keymaste.b02:firmware/image/keymaste.b02 \
+	device/sony/sumire/rootdir/firmware/image/keymaste.b03:firmware/image/keymaste.b03 \
+	device/sony/sumire/rootdir/firmware/image/keymaste.mtd:firmware/image/keymaste.mdt
+
 # Device Init
 PRODUCT_PACKAGES += \
     init.recovery.sumire \
