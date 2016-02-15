@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES := \
 	device/sony/sumire/rootdir/firmware/image/keymaste.b01:firmware/image/keymaste.b01 \
 	device/sony/sumire/rootdir/firmware/image/keymaste.b02:firmware/image/keymaste.b02 \
 	device/sony/sumire/rootdir/firmware/image/keymaste.b03:firmware/image/keymaste.b03 \
-	device/sony/sumire/rootdir/firmware/image/keymaste.mtd:firmware/image/keymaste.mdt
+	device/sony/sumire/rootdir/firmware/image/keymaste.mdt:firmware/image/keymaste.mdt
 
 # Device Init
 PRODUCT_PACKAGES += \
