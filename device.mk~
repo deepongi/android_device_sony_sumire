@@ -24,6 +24,9 @@ PRODUCT_COPY_FILES := \
     device/sony/sumire/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/sony/sumire/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/sumire/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml
+<<<<<<< HEAD
+    
+=======
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES += \
@@ -32,6 +35,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.barometer.xml:system/etc/permissions/android.hardware.sensor.barometer.xml \
     frameworks/native/data/etc/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml
 
+>>>>>>> 7c74a7a... Add device specific frameworks permissions
 # Device Init
 PRODUCT_PACKAGES += \
     init.recovery.sumire \
