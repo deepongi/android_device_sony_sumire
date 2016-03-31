@@ -21,6 +21,8 @@ TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 #Kernel
 TARGET_KERNEL_CONFIG := cyanogen_kitakami_sumire_defconfig
+WIFI_BUS := PCIE
+
 BOARD_KERNEL_CMDLINE += androidboot.hardware=sumire
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
