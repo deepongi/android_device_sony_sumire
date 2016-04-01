@@ -1,3 +1,4 @@
+#
 # Copyright 2014 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,16 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/sumire/device.mk)
-
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_sumire
-PRODUCT_DEVICE := sumire
-PRODUCT_MODEL := E6653
-PRODUCT_BRAND := Sony
-PRODUCT_MANUFACTURER := Sony
+add_lunch_combo cm_sumire-userdebug
+add_lunch_combo cm_sumire-eng

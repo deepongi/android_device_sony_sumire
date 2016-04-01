@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/sumire/overlay
 
@@ -46,10 +50,6 @@ PRODUCT_PACKAGES += \
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.sumire
-
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.sumire
 
 PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi

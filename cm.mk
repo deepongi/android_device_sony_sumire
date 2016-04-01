@@ -15,9 +15,9 @@
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Inherit device configuration
+# Enhanced NFC
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+
 $(call inherit-product, device/sony/sumire/full_sumire.mk)
 
-# Release name
-PRODUCT_RELEASE_NAME := E6653
 PRODUCT_NAME := cm_sumire
