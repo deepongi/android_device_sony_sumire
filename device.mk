@@ -97,4 +97,4 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvi
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/kitakami/platform.mk)
-$(call inherit-product-if-exists, vendor/sony/sumire/sumire-vendor.mk)
+$(call inherit-product, vendor/sony/sumire/sumire-vendor.mk)
