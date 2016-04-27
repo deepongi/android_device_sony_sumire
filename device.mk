@@ -64,3 +64,9 @@ $(call inherit-product, vendor/sony/kitakami-sumire/sumire-vendor.mk)
 
 # copy wlan firmware
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4356/device-bcm.mk)
+
+# Default.prop overrides to get adb working at boot
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
