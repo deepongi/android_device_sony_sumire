@@ -333,13 +333,13 @@
 		<threshold>
 			<mitigation name="hotplug-a57" level="off" />
 		</threshold>
-		<threshold trigger="39000" clear="36000">
+		<threshold trigger="43000" clear="40000">
 			<mitigation name="hotplug-a57" level="2" />
 		</threshold>
-		<threshold trigger="44200" clear="42000">
+		<threshold trigger="48900" clear="47700">
 			<mitigation name="hotplug-a57" level="3" />
 		</threshold>
-		<threshold trigger="45000" clear="44200">
+		<threshold trigger="50200" clear="48900">
 			<mitigation name="hotplug-a57" level="4" />
 		</threshold>
 	</configuration>
