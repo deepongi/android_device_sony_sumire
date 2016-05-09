@@ -13,7 +13,6 @@
 # limitations under the License.
 
 include device/sony/kitakami-common/PlatformConfig.mk
-include device/sony/kitakami-common/PlatformConfigCarbon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E6653
 
