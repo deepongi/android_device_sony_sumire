@@ -17,16 +17,19 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit AOSP Shinano common device parts
-$(call inherit-product, device/sony/sumire/aosp_e6653.mk)
+$(call inherit-product, device/sony/sumire/full_sumire.mk)
 
 # Inherit Carbon Shinano common device parts
-$(call inherit-product, device/sony/kitakami-common/platform_cm.mk)
+$(call inherit-product, device/sony/kitakami-common/platform.mk)
 
 # Inherit Carbon GSM telephony parts
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit Carbon product configuration
 $(call inherit-product, vendor/cm/config/common.mk)
+
+# Inherit Carbon product configuration
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Override Product Name for CarbonROM
 PRODUCT_NAME := cm_sumire

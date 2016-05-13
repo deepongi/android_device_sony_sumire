@@ -19,8 +19,8 @@ $(call inherit-product, device/sony/sumire/sumire.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_e6653
+PRODUCT_NAME := full_sumire
 PRODUCT_DEVICE := sumire
-PRODUCT_MODEL := Xperia Z5 (AOSP)
+PRODUCT_MODEL := Xperia Z5
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
