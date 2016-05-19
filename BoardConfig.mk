@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/kitakami/PlatformConfig.mk
+include device/sony/kitakami-common/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := E6653
 
@@ -20,7 +20,7 @@ TARGET_BOOTLOADER_BOARD_NAME := E6653
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 #Kernel
-TARGET_KERNEL_CONFIG := cyanogen_kitakami_sumire_defconfig
+TARGET_KERNEL_CONFIG := aosp_kitakami_sumire_defconfig
 WIFI_BUS := PCIE
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=sumire
