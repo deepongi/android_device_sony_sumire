@@ -14,6 +14,11 @@
 
 TARGET_KERNEL_CONFIG := aosp_kitakami_sumire_defconfig
 
+# TWRP Recovery
+DEVICE_RESOLUTION := 1440x814
+TW_THEME := portrait_hdpi
+TW_IGNORE_ABS_MT_TRACKING_ID := true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/sumire/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
